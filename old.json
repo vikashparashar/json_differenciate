@@ -1,0 +1,52 @@
+{
+    "metadata": {
+      "botId": "DQF.Robot24",
+      "responseId": "5cffe6d5-fed8-4618-85d4-9342a5731757",
+      "responseType": "success",
+      "responseTime": "2022-02-07T02:13:34.193Z",
+      "status": {
+        "success": true,
+        "message": "Bot Execution done successfullly",
+        "statusCode": "2200"
+      },
+      "processName": "DQF NG App",
+      "processId": "286a1521-0547-46ea-a9a0-bea4e442387a",
+      "stageId": "2e1be72f-9dad-4357-92a6-657b7e764043",
+      "task": "PendingDocList",
+      "taskGroupId": "9d33defc-2cd7-45c3-bd4d-9780ecc562c4",
+      "requestDate": "2022-02-07T02:00:05.87-05:00",
+      "requestType": "query",
+      "requestId": "9cfde37e-86ac-46b1-afea-33a10c0aa755",
+      "version": "2.1.0",
+      "attempt": 1,
+      "multiTask": "no",
+      "requestAuthToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJtdGVpZFwiOlwiOGI3NGQ0NGMtMDU5MC00MDdjLThiZDgtNjFkM2FkN2Y2ZjM5XCIsXCJ1c2VySWRcIjpcImIxMTA1NDhkLWFmNzgtNGUyNC04ZDZiLWNlN2IyZTE4YWI2OFwiLFwiYXBwU2Vzc2lvbklkXCI6XCIyMjk3ZTJiYS1hM2UwLTQyZmItOTg0Yy0zYWU2ODE3ZGZmMDdcIixcInByb2plY3RJZFwiOlwicHJvamVjdElkXCIsXCJwcm9qZWN0VmVyc2lvbklkXCI6XCJwcm9qZWN0VmVyc2lvbklkXCIsXCJVU0VSX05BTUVcIjpcInN1cGVyIGFkbWluXCIsXCJBRERUSU9OQUxfSU5GT1wiOlwiXCIsXCJleHRlcm5hbFRva2VuXCI6XCJudWxsXCJ9IiwiZXhwIjoxNjU2NTg0NjkzfQ.fU_lihMYPcl_XfpTvUT9QB_q9NRuAa10EkGNyHGhbQojigwQnjtkSDecGHcdUMXbykGwj-3Lq6cFBho0-bdrnA",
+      "txLabel": "Tx-Init=PendingDocList",
+      "stageName": "Start Process"
+    },
+    "data": [
+      {
+        "taskName": "PendingDocList",
+        "taskId": "9d33defc-2cd7-45c3-bd4d-9780ecc562c4",
+        "taskSerialNo": 1,
+        "result": {
+          "documentPending": {
+            "fileName": "9cfde37e-86ac-46b1-afea-33a10c0aa755_20220207-021038.csv",
+            "filePath": "\\\\10.74.100.80\\SharedFolder\\",
+            "isFinal": "1"
+          }
+        },
+        "metrics": {
+          "startTime": "2022-02-07T02:10:08.000Z",
+          "endTime": "2022-02-07T02:13:34.000Z",
+          "timeInMills": 206000,
+          "timeInSeconds": 206,
+          "statusCode": "2200"
+        },
+        "logs": {
+          "field1": "PendingDocList Completed Successfully"
+        },
+        "conditional": false
+      }
+    ]
+  }

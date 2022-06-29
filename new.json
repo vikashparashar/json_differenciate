@@ -1,0 +1,50 @@
+{
+    "data": {
+      "conditional": false,
+      "logs": {
+        "field1": "PendingDocList Completed Successfully"
+      },
+      "metrics": {
+        "endTime": "2022-06-28T11:34:26.535Z",
+        "startTime": "2022-06-28T11:34:17.585Z",
+        "statusCode": "2200",
+        "timeInMills": 8949,
+        "timeInSeconds": 8
+      },
+      "result": {
+        "documentPending": {
+          "fileName": "3ea1c98c-f6d6-11ec-92db-005056b46395.csv",
+          "filePath": "\\\\\\\\10.74.100.80\\\\SharedFolder\\\\",
+          "isFinal": "1"
+        }
+      },
+      "taskId": "9d33defc-2cd7-45c3-bd4d-9780ecc562c4",
+      "taskName": "PendingDocList",
+      "taskSerialNo": 1
+    },
+    "metadata": {
+      "attempt": 1,
+      "botId": "DQF.Robot007",
+      "multiTask": "no",
+      "processId": "c0b53ce2-7350-41b9-9402-47ba9e3bbdaf",
+      "processName": "DQF NG App",
+      "requestAuthToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJtdGVpZFwiOlwiOGI3NGQ0NGMtMDU5MC00MDdjLThiZDgtNjFkM2FkN2Y2ZjM5XCIsXCJ1c2VySWRcIjpcImZhMDFjZTYxLWFhMmMtNGMxZS04ODNmLWJmNWYzOTEzOWQ5YVwiLFwiYXBwU2Vzc2lvbklkXCI6XCI4NjhhYTE1Ny0xNTdiLTQ1OTktYTcwNS02MzcxNjQ1NjdkNjRcIixcInByb2plY3RJZFwiOlwiNzBjOGQ4MjEtYTcwYi00NmQzLWIzMmQtYzQ4NmQ2ODU1ZGUzXCIsXCJwcm9qZWN0VmVyc2lvbklkXCI6XCIxLjBcIn0iLCJleHAiOjE3NjcwMzMxMjV9.v21aRtcccQmuokHe13wWise0L9oMqqoJwDYp54kzUpS1lEAvIxQba9d1IGiflts7VFB1hUH2pLOHoT4Kf58J1A",
+      "requestDate": "2022-06-28T06:00:03.880-0400",
+      "requestId": "ac097fc2-d485-4203-bb5d-87cfcafa77d5",
+      "requestType": "query",
+      "responseId": "43f732d3-f6d6-11ec-92db-005056b46395",
+      "responseTime": "2022-06-28T11:34:26.535Z",
+      "responseType": "success",
+      "stageId": "86a776a5-1709-4df9-9c65-0c39ef3afa59",
+      "stageName": "Start Process",
+      "status": {
+        "message": "Bot Execution done successfully",
+        "statusCode": "2200",
+        "success": true
+      },
+      "task": "PendingDocList",
+      "taskGroupId": "9d33defc-2cd7-45c3-bd4d-9780ecc562c4",
+      "txLabel": "Tx-Init=PendingDocList",
+      "version": "2.1.0"
+    }
+  }
